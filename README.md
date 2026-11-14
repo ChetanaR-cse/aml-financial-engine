@@ -15,7 +15,7 @@
 
 **Problem Statement 2.1: Graph-Based Detection of Layered Money Laundering Networks**
 
-[Live Demo](#) · [Pitch Deck](#) · [Demo Video](#) · [Report a Bug](https://github.com/ChetanaR-cse/aml-financial-engine/issues)
+[Report a Bug](https://github.com/ChetanaR-cse/aml-financial-engine/issues)
 
 </div>
 
