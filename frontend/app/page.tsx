@@ -827,7 +827,7 @@ function HeroGraph({ animate }: { animate: boolean }) {
               <marker id="hero-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
                 <path d="M0 0 L10 5 L0 10 z" fill="#fb7185" />
               </marker>
-              <filter id="hero-glow" x="-50%" y="-50%" width="200%" height="200%">
+              <filter id="hero-glow" filterUnits="userSpaceOnUse" x="-50" y="-50" width="620" height="520">
                 <feGaussianBlur stdDeviation="4" result="b" />
                 <feMerge>
                   <feMergeNode in="b" />
@@ -1625,7 +1625,7 @@ export default function Page() {
                           <marker id="arrow-rose" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
                             <path d="M0 0 L10 5 L0 10 z" fill="#fb7185" />
                           </marker>
-                          <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+                          <filter id="glow" filterUnits="userSpaceOnUse" x="-50" y="-50" width={CANVAS_W + 100} height={CANVAS_H + 100}>
                             <feGaussianBlur stdDeviation="4" result="b" />
                             <feMerge>
                               <feMergeNode in="b" />
